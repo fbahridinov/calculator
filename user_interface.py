@@ -11,10 +11,10 @@ def select_menu(a):
         ma.fn_addition(view.get_numbers_a(), view.get_numbers_b())
     if a == 2:
         md.fn_division(view.get_numbers_a(), view.get_numbers_b())
-    if a == 3:
+    if a == 5:
         ms.fn_model_subtraction(view.get_numbers_a(), view.get_numbers_b())
     if a == 4:
         mm.fn_model_multiplication(view.get_numbers_a(), view.get_numbers_b())
-    if a == 5:
+    if a == 3:
         me.fn_model_exponentiation(view.get_numbers_a(), view.get_numbers_b())
     #else:

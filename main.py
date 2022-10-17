@@ -13,6 +13,6 @@ while True:
     button = int(input('Введите номер операции: '))
 
     ui.select_menu(button)
-    print('Новая операция с калькулятором.\n')
+    print('Выберите операцию.\n')
     continue
 
