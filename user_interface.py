@@ -4,8 +4,8 @@ import model_division as md
 import model_exponentiation as mx
 import model_multiplication as mm
 import model_subtraction as ms
-import view
 
+import view
 
 def select_menu(a):
     if a == 1:
@@ -20,3 +20,4 @@ def select_menu(a):
         ms.fn_model_subtraction(view.get_numbers_a(), view.get_numbers_b())
     elif a > 5:
         print('Нет такой операции!!!')
+
