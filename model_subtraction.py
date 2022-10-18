@@ -1,3 +1,3 @@
 # Вычитание
 def fn_model_subtraction(a, b):
-    return a - b
+    print(f'Результат: {a - b}\n')
