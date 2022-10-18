@@ -1,3 +1,3 @@
 # Умножение
 def fn_model_multiplication(a, b):
-    return a * b
+    print(f"Результат: {a * b}")
